@@ -1,0 +1,724 @@
+order_date,region,category,units_sold,revenue,discount_rate,customer_rating
+2025-01-01,North,Advisory,15,9676.09,0.2,4.3
+2025-01-01,East,Software,11,1310.6,0.2,4.3
+2025-01-01,East,Advisory,2,1286.53,0.05,3.5
+2025-01-02,West,Hardware,12,4675.15,0.1,4.3
+2025-01-03,West,Advisory,16,8967.13,0.1,3.9
+2025-01-03,West,Advisory,3,2025.25,0.2,4.0
+2025-01-04,North,Advisory,14,9366.58,0.0,3.2
+2025-01-04,West,Software,15,1938.16,0.15,4.1
+2025-01-05,South,Cloud Services,17,4529.41,0.15,3.8
+2025-01-05,South,Software,10,1255.95,0.2,4.9
+2025-01-05,West,Software,2,238.45,0.15,4.3
+2025-01-06,South,Advisory,8,5459.94,0.2,3.7
+2025-01-06,West,Hardware,13,5381.27,0.2,3.3
+2025-01-06,North,Cloud Services,1,262.57,0.1,3.6
+2025-01-07,North,Cloud Services,5,1635.99,0.05,3.4
+2025-01-07,North,Cloud Services,8,2285.59,0.0,3.3
+2025-01-07,South,Cloud Services,5,1550.4,0.1,4.2
+2025-01-08,East,Hardware,14,7246.06,0.2,4.2
+2025-01-08,South,Cloud Services,7,1759.37,0.05,3.2
+2025-01-08,East,Hardware,7,3255.49,0.2,4.1
+2025-01-09,East,Hardware,7,3207.21,0.1,3.6
+2025-01-09,West,Hardware,7,3087.94,0.15,4.9
+2025-01-10,North,Software,6,747.13,0.15,3.5
+2025-01-11,East,Software,7,12446.75,0.0,3.6
+2025-01-11,North,Software,13,1826.45,0.1,4.0
+2025-01-12,East,Hardware,10,4544.18,0.1,3.8
+2025-01-13,North,Advisory,17,10075.93,0.15,3.7
+2025-01-14,North,Cloud Services,5,1403.41,0.0,3.7
+2025-01-14,South,Software,5,613.08,0.0,3.6
+2025-01-15,West,Hardware,6,2681.9,0.15,3.3
+2025-01-15,East,Advisory,17,11733.22,0.2,4.3
+2025-01-16,East,Software,16,2262.52,0.0,3.8
+2025-01-16,West,Software,3,399.99,0.1,3.6
+2025-01-17,East,Cloud Services,19,5517.99,0.15,4.9
+2025-01-17,West,Advisory,7,5161.39,0.0,4.4
+2025-01-18,South,Hardware,10,4554.97,0.15,3.5
+2025-01-19,West,Advisory,17,10317.02,0.15,4.2
+2025-01-20,North,Cloud Services,9,2649.63,0.1,4.7
+2025-01-20,West,Software,1,137.78,0.1,4.9
+2025-01-20,South,Advisory,8,5454.81,0.1,3.9
+2025-01-21,North,Cloud Services,18,5007.48,0.05,4.1
+2025-01-22,North,Advisory,9,5415.72,0.15,3.6
+2025-01-22,West,Hardware,8,4418.3,0.0,3.8
+2025-01-22,West,Advisory,19,13182.43,0.2,4.1
+2025-01-23,South,Cloud Services,1,319.6,0.0,3.6
+2025-01-23,West,Hardware,19,,0.0,3.3
+2025-01-23,West,Advisory,14,10538.29,0.1,4.5
+2025-01-24,North,Advisory,17,11609.46,0.1,5.0
+2025-01-25,North,Hardware,1,478.51,0.05,4.2
+2025-01-25,South,Cloud Services,3,965.0,0.05,4.3
+2025-01-25,East,Software,2,250.12,0.05,4.8
+2025-01-26,North,Advisory,9,6471.71,0.2,3.7
+2025-01-27,South,Cloud Services,13,3611.13,0.0,4.3
+2025-01-27,North,Advisory,8,5775.39,0.15,4.8
+2025-01-28,South,Advisory,2,1341.65,0.1,4.0
+2025-01-28,South,Cloud Services,17,4669.41,0.1,3.4
+2025-01-28,West,Hardware,12,7009.47,0.15,4.7
+2025-01-29,East,Cloud Services,8,2735.46,0.2,4.9
+2025-01-29,South,Software,19,2838.36,0.1,4.0
+2025-01-30,North,Software,9,1310.1,0.0,3.5
+2025-01-30,East,Hardware,2,952.65,0.0,4.4
+2025-01-30,North,Hardware,16,8307.96,0.2,4.3
+2025-01-31,West,Cloud Services,16,4634.86,0.0,3.8
+2025-01-31,North,Advisory,15,8944.15,0.15,3.5
+2025-01-31,South,Advisory,16,12083.77,0.15,3.5
+2025-02-01,East,Hardware,10,5908.17,0.15,3.3
+2025-02-01,South,Cloud Services,19,6161.16,0.0,4.2
+2025-02-02,West,Advisory,16,11625.82,0.0,4.8
+2025-02-03,West,Advisory,12,8111.67,0.15,3.4
+2025-02-03,East,Hardware,11,6534.59,0.1,4.7
+2025-02-03,South,Advisory,11,-1450.0,0.2,3.6
+2025-02-04,North,Software,19,2762.26,0.0,4.4
+2025-02-04,South,Hardware,10,4512.05,0.05,3.7
+2025-02-05,South,Advisory,18,13172.36,0.2,3.3
+2025-02-05,North,Hardware,4,1909.1,0.0,4.2
+2025-02-05,North,Cloud Services,3,960.5,0.05,3.7
+2025-02-06,West,Software,5,651.6,0.2,4.5
+2025-02-06,North,Cloud Services,17,5667.04,0.15,4.7
+2025-02-06,North,Software,19,2597.49,0.15,4.9
+2025-02-07,North,Advisory,7,5647.32,0.15,4.2
+2025-02-07,West,Cloud Services,5,1552.85,0.0,4.2
+2025-02-07,West,Hardware,16,9254.08,0.2,4.9
+2025-02-08,South,Cloud Services,5,1779.39,0.2,3.8
+2025-02-08,East,Software,12,1805.11,0.05,4.3
+2025-02-09,East,Software,14,2120.85,0.05,3.9
+2025-02-10,South,Software,5,719.62,0.1,4.2
+2025-02-10,North,Hardware,17,10364.77,0.0,4.3
+2025-02-10,South,Advisory,19,14750.6,0.1,3.6
+2025-02-11,South,Cloud Services,3,932.34,0.05,4.0
+2025-02-11,West,Software,8,1018.53,0.0,4.5
+2025-02-11,North,Cloud Services,17,4990.96,0.0,3.6
+2025-02-12,West,Software,13,2140.04,0.2,3.8
+2025-02-12,South,Advisory,11,8933.15,0.15,4.2
+2025-02-13,East,Software,9,1191.94,0.0,4.3
+2025-02-14,West,Cloud Services,11,3481.44,0.15,3.4
+2025-02-14,West,Hardware,4,2153.99,0.05,3.6
+2025-02-15,West,Hardware,17,8669.9,0.2,4.7
+2025-02-16,South,Hardware,3,1802.06,0.05,3.9
+2025-02-17,North,Cloud Services,2,597.99,0.05,4.2
+2025-02-18,West,Cloud Services,1,,0.05,5.0
+2025-02-19,North,Cloud Services,17,6435.9,0.05,3.3
+2025-02-20,North,Hardware,16,7732.99,0.15,4.7
+2025-02-20,North,Cloud Services,6,2324.09,0.2,4.5
+2025-02-20,South,Software,19,2593.58,0.0,3.4
+2025-02-21,North,Hardware,4,2040.53,0.0,4.6
+2025-02-21,West,Software,8,1014.9,0.05,4.1
+2025-02-21,East,Software,18,2947.27,0.15,4.2
+2025-02-22,North,Cloud Services,17,5242.83,0.2,4.3
+2025-02-22,East,Software,19,3162.19,0.15,5.0
+2025-02-23,South,Software,15,2190.85,0.05,3.8
+2025-02-23,North,Software,15,2163.44,0.05,4.8
+2025-02-24,West,Hardware,10,6311.68,0.05,4.6
+2025-02-25,South,Software,2,283.78,0.1,4.2
+2025-02-26,East,Cloud Services,16,5012.59,0.15,3.5
+2025-02-26,North,Advisory,3,31267.12,0.1,4.4
+2025-02-26,North,Software,19,2456.17,0.2,3.8
+2025-02-27,South,Hardware,6,2996.12,0.0,3.8
+2025-02-27,South,Software,17,2557.08,0.2,3.8
+2025-02-28,East,Hardware,15,8500.5,0.1,4.9
+2025-02-28,North,Hardware,4,2466.4,0.0,4.3
+2025-03-01,East,Cloud Services,14,5104.8,0.05,4.5
+2025-03-01,East,Software,19,3050.92,0.1,4.2
+2025-03-01,South,Hardware,6,3428.83,0.0,4.5
+2025-03-02,North,Cloud Services,17,5479.44,0.05,4.2
+2025-03-02,North,Hardware,13,7579.39,0.15,3.8
+2025-03-03,South,Hardware,15,8738.99,0.05,4.2
+2025-03-04,East,Advisory,10,7098.89,0.15,4.4
+2025-03-05,West,Cloud Services,13,4379.21,0.0,3.6
+2025-03-05,North,Software,6,875.8,0.15,4.7
+2025-03-06,South,Software,9,1198.77,0.1,3.2
+2025-03-06,West,Hardware,6,3323.63,0.15,4.9
+2025-03-07,South,Software,17,2587.89,0.1,4.7
+2025-03-07,East,Software,11,1715.25,0.1,4.7
+2025-03-07,South,Hardware,4,2238.57,0.0,4.5
+2025-03-08,South,Hardware,14,7518.66,0.2,4.1
+2025-03-08,West,Cloud Services,13,4683.57,0.0,3.9
+2025-03-08,South,Advisory,5,3321.99,0.15,3.6
+2025-03-09,North,Advisory,5,3257.66,0.0,4.3
+2025-03-09,South,Advisory,3,2193.16,0.0,4.7
+2025-03-10,North,Software,11,1909.19,0.15,3.9
+2025-03-10,West,Hardware,8,5054.48,0.2,3.6
+2025-03-11,North,Cloud Services,5,1961.35,0.1,4.3
+2025-03-11,West,Software,13,2049.94,0.05,4.7
+2025-03-12,South,Advisory,19,15158.41,0.0,4.5
+2025-03-12,North,Cloud Services,17,6833.59,0.05,4.2
+2025-03-12,West,Advisory,19,14802.17,0.1,4.3
+2025-03-13,West,Advisory,15,12865.41,0.0,4.2
+2025-03-13,East,Cloud Services,4,1652.38,0.0,3.8
+2025-03-14,East,Cloud Services,1,309.53,0.05,4.6
+2025-03-15,North,Software,6,936.69,0.15,4.0
+2025-03-15,West,Advisory,15,12614.8,0.2,4.1
+2025-03-15,West,Advisory,13,10700.18,0.1,4.4
+2025-03-16,East,Cloud Services,5,1980.51,0.05,3.8
+2025-03-16,West,Software,15,2171.47,0.1,3.5
+2025-03-17,South,Advisory,18,14394.73,0.15,4.3
+2025-03-18,North,Advisory,8,6478.29,0.0,4.2
+2025-03-19,South,Hardware,19,11832.28,0.0,4.9
+2025-03-19,North,Cloud Services,14,4664.21,0.05,4.7
+2025-03-20,North,Cloud Services,1,402.33,0.1,4.3
+2025-03-20,East,Hardware,9,5621.91,0.05,4.6
+2025-03-21,North,Software,3,451.75,0.0,4.8
+2025-03-22,East,Software,18,2781.85,0.1,4.0
+2025-03-22,East,Cloud Services,12,4891.28,0.0,4.1
+2025-03-23,West,Hardware,1,559.21,0.1,4.3
+2025-03-23,South,Advisory,17,11944.26,0.15,4.0
+2025-03-24,West,Software,8,1245.92,0.0,3.8
+2025-03-24,East,Software,19,2699.76,0.1,3.8
+2025-03-25,North,Hardware,13,7312.88,0.1,3.3
+2025-03-25,East,Software,15,2355.17,0.15,4.1
+2025-03-26,East,Software,4,563.7,0.2,3.3
+2025-03-26,West,Cloud Services,10,3385.13,0.05,3.9
+2025-03-27,West,Cloud Services,18,7266.51,0.0,4.2
+2025-03-27,West,Cloud Services,8,2563.73,0.2,3.5
+2025-03-27,West,Hardware,15,9347.48,0.1,3.6
+2025-03-28,West,Advisory,14,11994.39,0.15,4.9
+2025-03-28,North,Software,14,2047.21,0.05,3.2
+2025-03-29,East,Hardware,19,9853.59,0.1,4.2
+2025-03-29,South,Advisory,2,1751.54,0.2,3.8
+2025-03-29,East,Software,2,299.07,0.15,4.7
+2025-03-30,West,Software,9,1376.86,0.15,3.6
+2025-03-31,West,Software,17,,0.1,4.8
+2025-03-31,West,Advisory,17,13198.74,0.0,3.7
+2025-04-01,North,Hardware,7,3748.58,0.1,4.0
+2025-04-01,South,Software,13,2144.33,0.2,3.2
+2025-04-02,North,Advisory,10,7978.9,0.05,4.2
+2025-04-02,South,Hardware,12,6401.6,0.05,3.5
+2025-04-03,East,Hardware,6,3754.1,0.05,4.3
+2025-04-03,North,Hardware,7,4184.6,0.0,4.0
+2025-04-03,South,Advisory,14,9434.87,0.15,4.9
+2025-04-04,North,Cloud Services,4,1573.96,0.2,3.9
+2025-04-05,West,Advisory,17,14134.46,0.1,4.9
+2025-04-05,East,Cloud Services,5,1810.26,0.05,3.3
+2025-04-05,East,Advisory,3,2578.51,0.0,4.1
+2025-04-06,South,Cloud Services,9,3539.52,0.2,3.8
+2025-04-07,North,Hardware,11,6617.26,0.0,3.6
+2025-04-08,North,Software,12,1978.26,0.05,3.4
+2025-04-08,West,Hardware,17,8847.66,0.05,4.4
+2025-04-08,East,Hardware,12,7097.18,0.1,4.5
+2025-04-09,East,Hardware,5,3087.38,0.0,4.8
+2025-04-10,South,Cloud Services,9,3702.72,0.05,4.3
+2025-04-10,East,Hardware,7,3513.25,0.2,4.5
+2025-04-10,West,Cloud Services,8,3314.83,0.2,4.1
+2025-04-11,East,Advisory,3,2205.83,0.05,4.4
+2025-04-11,East,Software,3,474.97,0.2,3.3
+2025-04-12,West,Cloud Services,12,4445.33,0.0,4.2
+2025-04-13,North,Hardware,18,10543.87,0.2,4.3
+2025-04-13,South,Software,3,517.52,0.1,4.8
+2025-04-14,West,Software,3,405.38,0.15,3.3
+2025-04-15,South,Hardware,12,7241.63,0.15,5.0
+2025-04-16,North,Software,7,1091.24,0.0,3.6
+2025-04-16,North,Cloud Services,14,4750.25,0.05,3.7
+2025-04-17,North,Hardware,16,7938.7,0.0,3.4
+2025-04-17,West,Hardware,4,2124.16,0.05,4.6
+2025-04-18,West,Cloud Services,6,2476.21,0.1,4.8
+2025-04-19,East,Hardware,4,2128.63,0.15,4.7
+2025-04-19,North,Software,19,2943.48,0.05,3.3
+2025-04-20,North,Software,17,2979.87,0.2,3.3
+2025-04-21,North,Cloud Services,9,3647.57,0.05,4.1
+2025-04-21,South,Cloud Services,3,1161.06,0.0,3.5
+2025-04-21,East,Advisory,6,4788.51,0.2,4.2
+2025-04-22,South,Advisory,5,3372.19,0.0,3.9
+2025-04-23,North,Advisory,9,5963.57,0.05,4.8
+2025-04-23,East,Hardware,8,5201.45,0.1,3.4
+2025-04-23,West,Advisory,15,9803.56,0.1,4.5
+2025-04-24,South,Software,5,702.04,0.2,4.8
+2025-04-24,North,Hardware,18,10330.96,0.2,4.8
+2025-04-25,West,Advisory,2,1550.43,0.2,3.7
+2025-04-25,West,Software,19,3228.77,0.15,4.7
+2025-04-25,West,Cloud Services,9,3053.66,0.2,4.5
+2025-04-26,East,Advisory,6,4156.12,0.2,4.8
+2025-04-26,North,Software,19,3232.97,0.05,3.4
+2025-04-27,South,Hardware,7,3596.21,0.15,4.2
+2025-04-27,North,Hardware,12,5847.07,0.2,4.3
+2025-04-27,North,Hardware,17,8602.63,0.05,4.3
+2025-04-28,West,Cloud Services,6,1992.96,0.05,4.0
+2025-04-29,West,Cloud Services,15,6008.33,0.2,4.6
+2025-04-29,West,Advisory,4,2645.35,0.1,3.5
+2025-04-30,South,Hardware,1,493.36,0.1,4.7
+2025-04-30,West,Software,15,2595.24,0.15,4.4
+2025-05-01,East,Advisory,11,9129.05,0.1,3.7
+2025-05-02,South,Software,14,,0.15,4.0
+2025-05-02,North,Hardware,7,3997.82,0.2,4.4
+2025-05-02,West,Advisory,2,1634.38,0.15,4.4
+2025-05-03,North,Cloud Services,12,3627.62,0.2,4.9
+2025-05-03,North,Advisory,6,4875.56,0.2,5.0
+2025-05-03,South,Hardware,6,3117.2,0.2,3.6
+2025-05-04,West,Hardware,12,6896.74,0.15,4.1
+2025-05-05,North,Hardware,8,4868.77,0.05,4.6
+2025-05-05,North,Cloud Services,12,3613.23,0.15,4.9
+2025-05-06,North,Cloud Services,14,5036.09,0.15,3.6
+2025-05-06,South,Hardware,16,8962.27,0.2,3.7
+2025-05-07,North,Advisory,17,10838.08,0.05,4.4
+2025-05-07,South,Software,15,2308.17,0.1,4.5
+2025-05-07,West,Hardware,6,3772.65,0.1,4.1
+2025-05-08,West,Hardware,14,6985.09,0.15,4.5
+2025-05-09,West,Advisory,18,12683.07,0.05,4.2
+2025-05-09,North,Hardware,1,611.76,0.05,3.9
+2025-05-10,East,Software,14,2196.29,0.05,3.3
+2025-05-10,North,Advisory,8,6174.1,0.1,4.8
+2025-05-11,North,Software,7,1070.35,0.0,4.5
+2025-05-12,South,Advisory,15,12107.33,0.1,4.8
+2025-05-12,South,Advisory,3,1907.68,0.15,4.5
+2025-05-13,South,Software,12,1631.23,0.2,4.1
+2025-05-13,South,Cloud Services,19,7452.23,0.15,4.5
+2025-05-13,East,Hardware,19,9416.83,0.05,4.4
+2025-05-14,West,Advisory,9,6587.47,0.15,3.6
+2025-05-15,North,Hardware,15,7629.27,0.15,3.5
+2025-05-15,East,Hardware,5,2615.7,0.15,4.6
+2025-05-15,West,Advisory,18,14613.22,0.0,4.0
+2025-05-16,West,Software,4,648.7,0.05,4.6
+2025-05-17,East,Software,19,2583.48,0.2,3.6
+2025-05-17,South,Hardware,8,4801.72,0.0,3.4
+2025-05-17,West,Advisory,16,11987.52,0.05,3.6
+2025-05-18,East,Software,5,801.85,0.2,4.0
+2025-05-18,West,Software,15,2234.98,0.0,4.4
+2025-05-19,North,Software,2,320.05,0.2,3.8
+2025-05-19,West,Advisory,4,3297.51,0.1,4.8
+2025-05-19,South,Software,16,2325.84,0.05,4.4
+2025-05-20,North,Hardware,8,4473.38,0.0,3.7
+2025-05-21,West,Advisory,11,8457.28,0.2,4.2
+2025-05-21,North,Hardware,12,79467.38,0.15,4.2
+2025-05-22,South,Software,9,1300.07,0.15,3.3
+2025-05-22,East,Hardware,3,1586.94,0.2,3.4
+2025-05-23,East,Hardware,14,7911.17,0.15,5.0
+2025-05-24,South,Cloud Services,2,628.17,0.2,4.8
+2025-05-24,West,Cloud Services,15,5007.69,0.15,4.2
+2025-05-24,West,Cloud Services,13,3850.79,0.05,3.6
+2025-05-25,South,Advisory,1,757.34,0.2,4.0
+2025-05-25,East,Hardware,15,8428.76,0.05,3.9
+2025-05-25,South,Software,18,2640.0,0.0,3.3
+2025-05-26,West,Software,1,145.42,0.2,4.4
+2025-05-27,South,Software,2,323.46,0.0,4.8
+2025-05-28,North,Advisory,9,5531.74,0.0,3.4
+2025-05-29,South,Hardware,14,8266.63,0.1,4.7
+2025-05-29,North,Software,9,1187.74,0.2,4.7
+2025-05-30,East,Software,15,2168.1,0.05,3.9
+2025-05-30,East,Hardware,1,480.58,0.0,4.0
+2025-05-31,East,Software,3,374.38,0.05,4.6
+2025-05-31,East,Hardware,8,4181.15,0.15,3.2
+2025-06-01,West,Hardware,5,2509.77,0.2,3.6
+2025-06-01,East,Advisory,11,8195.79,0.05,4.5
+2025-06-02,North,Hardware,11,4834.17,0.2,4.8
+2025-06-02,West,Hardware,11,5468.05,0.15,4.9
+2025-06-02,East,Software,2,247.48,0.15,3.7
+2025-06-03,North,Cloud Services,15,4840.05,0.05,4.3
+2025-06-03,South,Software,17,2661.34,0.05,3.4
+2025-06-04,East,Cloud Services,12,3454.52,0.2,3.5
+2025-06-04,West,Cloud Services,17,5520.3,0.05,4.9
+2025-06-04,West,Advisory,7,5226.7,0.15,3.3
+2025-06-05,East,Cloud Services,13,4246.67,0.2,4.8
+2025-06-05,South,Hardware,-15,4786.9,0.05,3.8
+2025-06-06,West,Advisory,16,11007.91,0.1,4.6
+2025-06-06,West,Software,19,2841.53,0.05,4.7
+2025-06-07,South,Advisory,1,658.31,0.2,3.5
+2025-06-07,West,Cloud Services,2,623.66,0.2,3.4
+2025-06-07,North,Advisory,15,9287.48,0.1,3.6
+2025-06-08,North,Hardware,2,938.21,0.2,4.4
+2025-06-08,South,Software,7,1002.44,0.1,5.0
+2025-06-09,West,Cloud Services,6,1914.35,0.2,3.3
+2025-06-09,North,Advisory,1,687.18,0.0,3.8
+2025-06-10,North,Software,7,810.87,0.0,4.7
+2025-06-10,North,Advisory,12,7343.7,0.2,3.7
+2025-06-10,South,Advisory,3,2015.05,0.2,4.0
+2025-06-11,South,Software,12,1666.47,0.0,5.0
+2025-06-11,South,Cloud Services,8,2531.94,0.05,4.9
+2025-06-12,East,Hardware,15,6751.6,0.05,3.4
+2025-06-13,West,Cloud Services,12,3507.53,0.15,5.0
+2025-06-14,South,Advisory,13,7525.52,0.1,3.5
+2025-06-14,West,Hardware,8,4236.36,0.0,4.7
+2025-06-14,West,Hardware,6,2726.03,0.0,4.3
+2025-06-15,South,Advisory,14,8061.65,0.05,3.8
+2025-06-15,North,Hardware,2,1103.56,0.0,4.1
+2025-06-16,South,Advisory,4,2879.9,0.1,4.6
+2025-06-16,South,Cloud Services,5,1461.36,0.15,4.9
+2025-06-16,South,Software,18,2420.33,0.05,4.8
+2025-06-17,West,Cloud Services,7,1981.89,0.0,3.8
+2025-06-17,South,Cloud Services,2,551.63,0.15,4.2
+2025-06-18,South,Hardware,1,542.11,0.0,4.3
+2025-06-18,South,Software,3,437.15,0.0,4.4
+2025-06-19,North,Advisory,2,1279.21,0.15,3.3
+2025-06-19,West,Advisory,13,9386.35,0.15,4.0
+2025-06-20,West,Software,11,1448.03,0.15,3.9
+2025-06-20,East,Cloud Services,5,1607.48,0.05,3.6
+2025-06-20,East,Software,18,1983.98,0.0,4.0
+2025-06-21,North,Cloud Services,9,2881.15,0.1,3.5
+2025-06-22,West,Advisory,7,4046.86,0.2,4.3
+2025-06-23,West,Advisory,6,3674.14,0.2,4.8
+2025-06-24,North,Advisory,3,1795.36,0.15,4.1
+2025-06-24,North,Cloud Services,5,1240.78,0.05,3.4
+2025-06-25,South,Software,15,1906.14,0.05,3.5
+2025-06-26,North,Hardware,18,8652.83,0.2,4.6
+2025-06-27,West,Advisory,17,9214.87,0.15,4.4
+2025-06-28,West,Advisory,4,2710.65,0.15,4.4
+2025-06-29,North,Hardware,6,2646.56,0.05,4.8
+2025-06-29,West,Hardware,17,8117.64,0.0,4.4
+2025-06-29,West,Advisory,1,669.89,0.05,3.7
+2025-06-30,East,Advisory,2,1168.06,0.0,4.3
+2025-07-01,North,Advisory,19,10077.43,0.15,4.1
+2025-07-01,West,Hardware,13,5052.24,0.1,4.4
+2025-07-01,West,Cloud Services,3,718.9,0.2,4.1
+2025-07-02,South,Cloud Services,4,1066.74,0.1,4.4
+2025-07-02,East,Advisory,11,6409.43,0.2,4.4
+2025-07-03,East,Software,16,2172.53,0.0,5.0
+2025-07-03,South,Cloud Services,3,738.82,0.15,4.6
+2025-07-04,South,Hardware,18,7569.02,0.15,3.7
+2025-07-05,North,Software,16,2061.65,0.15,3.5
+2025-07-05,East,Software,17,2260.4,0.0,3.9
+2025-07-06,West,Software,18,2390.3,0.15,3.4
+2025-07-06,East,Advisory,14,7005.54,0.2,3.7
+2025-07-06,South,Advisory,7,4528.96,0.0,4.2
+2025-07-07,South,Hardware,8,3758.35,0.15,3.3
+2025-07-08,East,Software,13,1356.13,0.2,4.4
+2025-07-08,East,Advisory,18,9541.09,0.1,3.5
+2025-07-09,East,Software,5,592.46,0.1,3.7
+2025-07-10,North,Cloud Services,7,1917.66,0.0,4.6
+2025-07-10,West,Cloud Services,10,2724.15,0.0,4.5
+2025-07-10,North,Cloud Services,4,942.23,0.05,4.4
+2025-07-11,North,Software,14,1653.55,0.1,4.4
+2025-07-12,West,Hardware,4,1450.16,0.05,4.7
+2025-07-13,South,Software,2,243.37,0.15,3.8
+2025-07-14,East,Cloud Services,6,1750.06,0.2,3.4
+2025-07-14,North,Cloud Services,4,1118.09,0.1,3.4
+2025-07-14,North,Software,8,811.81,0.05,4.3
+2025-07-15,West,Hardware,17,7309.89,0.15,4.1
+2025-07-16,North,Advisory,16,8156.44,0.15,4.2
+2025-07-16,West,Software,2,228.84,0.1,3.7
+2025-07-16,East,Advisory,17,9830.82,0.1,3.3
+2025-07-17,South,Advisory,6,3026.66,0.15,4.1
+2025-07-18,South,Advisory,17,9157.57,0.05,3.9
+2025-07-19,West,Cloud Services,15,4398.17,0.15,3.7
+2025-07-20,South,Hardware,4,,0.1,4.4
+2025-07-21,West,Software,11,1275.2,0.05,4.3
+2025-07-21,West,Hardware,10,3853.97,0.2,4.5
+2025-07-21,South,Software,13,1489.2,0.1,3.7
+2025-07-22,South,Cloud Services,3,737.02,0.1,3.9
+2025-07-23,North,Advisory,10,6050.73,0.15,3.4
+2025-07-24,East,Cloud Services,18,5017.76,0.0,3.2
+2025-07-24,South,Hardware,14,5770.85,0.15,3.9
+2025-07-25,North,Advisory,12,5482.32,0.15,3.7
+2025-07-26,South,Advisory,10,4903.08,0.05,4.7
+2025-07-26,West,Software,9,943.84,0.1,3.3
+2025-07-26,East,Software,4,397.71,0.1,3.8
+2025-07-27,South,Cloud Services,11,3060.88,0.2,3.3
+2025-07-27,West,Advisory,14,7836.51,0.05,5.0
+2025-07-27,East,Hardware,5,2001.6,0.1,3.8
+2025-07-28,West,Advisory,9,4014.39,0.2,3.6
+2025-07-29,East,Hardware,1,391.18,0.2,3.6
+2025-07-29,South,Advisory,11,4958.37,0.0,4.2
+2025-07-30,South,Software,2,205.13,0.2,3.5
+2025-07-30,West,Software,2,181.2,0.1,4.4
+2025-07-31,West,Advisory,15,7715.9,0.15,3.8
+2025-07-31,West,Cloud Services,19,4934.16,0.2,3.5
+2025-08-01,South,Advisory,15,6969.65,0.2,4.4
+2025-08-01,West,Advisory,14,6577.62,0.0,4.2
+2025-08-01,South,Advisory,17,7436.9,0.0,3.4
+2025-08-02,West,Advisory,1,490.48,0.1,3.4
+2025-08-02,East,Advisory,18,8014.55,0.2,4.9
+2025-08-02,West,Advisory,10,4453.48,0.15,4.6
+2025-08-03,West,Hardware,9,3298.89,0.05,3.5
+2025-08-04,South,Advisory,7,3632.59,0.2,4.8
+2025-08-04,East,Software,8,804.67,0.15,3.6
+2025-08-05,West,Advisory,16,7154.65,0.15,4.6
+2025-08-06,East,Software,9,975.53,0.0,4.0
+2025-08-06,North,Cloud Services,13,2853.44,0.15,4.8
+2025-08-07,East,Cloud Services,5,1173.8,0.0,3.3
+2025-08-07,South,Advisory,5,2821.97,0.15,4.7
+2025-08-07,South,Advisory,18,7856.79,0.15,3.8
+2025-08-08,East,Software,12,1165.68,0.2,3.7
+2025-08-08,East,Software,12,1121.76,0.05,3.6
+2025-08-08,West,Advisory,1,453.34,0.15,4.8
+2025-08-09,South,Cloud Services,11,2625.36,0.0,4.7
+2025-08-09,South,Cloud Services,15,3171.97,0.0,3.4
+2025-08-09,South,Advisory,2,924.17,0.15,4.4
+2025-08-10,West,Hardware,1,402.03,0.1,4.4
+2025-08-10,East,Hardware,6,2098.94,0.2,3.3
+2025-08-11,South,Hardware,14,5702.4,0.0,4.6
+2025-08-12,North,Advisory,15,6711.06,0.0,4.8
+2025-08-12,East,Cloud Services,2,442.79,0.15,3.9
+2025-08-12,East,Software,19,2093.9,0.1,4.0
+2025-08-13,West,Advisory,14,7558.88,0.0,3.7
+2025-08-14,South,Cloud Services,19,4620.73,0.15,5.0
+2025-08-14,East,Software,9,809.09,0.0,3.7
+2025-08-14,West,Cloud Services,14,2855.92,0.2,4.2
+2025-08-15,North,Software,1,94.15,0.0,4.7
+2025-08-16,North,Cloud Services,14,3315.69,0.15,3.3
+2025-08-17,North,Hardware,14,4706.9,0.2,4.7
+2025-08-17,South,Advisory,12,5790.17,0.05,4.2
+2025-08-18,West,Hardware,5,1809.74,0.0,4.5
+2025-08-19,North,Hardware,4,1554.5,0.05,4.8
+2025-08-20,North,Advisory,15,6094.47,0.15,4.0
+2025-08-21,East,Hardware,8,39350.62,0.15,4.6
+2025-08-21,West,Cloud Services,7,1343.9,0.15,3.9
+2025-08-21,East,Hardware,12,4725.1,0.05,4.1
+2025-08-22,West,Hardware,6,1805.59,0.0,3.2
+2025-08-23,South,Advisory,8,3381.25,0.05,4.9
+2025-08-24,North,Hardware,3,933.86,0.1,4.0
+2025-08-25,North,Hardware,6,2264.2,0.0,3.6
+2025-08-26,West,Advisory,1,431.12,0.2,4.0
+2025-08-26,South,Advisory,10,4249.57,0.0,3.9
+2025-08-26,North,Hardware,9,3349.82,0.2,3.8
+2025-08-27,North,Cloud Services,7,1471.25,0.1,3.3
+2025-08-27,North,Cloud Services,14,2652.09,0.15,4.5
+2025-08-27,West,Advisory,13,6056.23,0.0,4.7
+2025-08-28,South,Advisory,5,1911.57,0.1,3.2
+2025-08-28,North,Software,15,1170.39,0.15,4.4
+2025-08-28,West,Software,1,88.73,0.05,3.4
+2025-08-29,West,Advisory,17,6633.69,0.05,3.8
+2025-08-29,East,Hardware,2,705.76,0.0,4.4
+2025-08-29,East,Cloud Services,13,2317.7,0.05,3.4
+2025-08-30,East,Hardware,3,1071.46,0.1,4.5
+2025-08-31,East,Software,16,1632.53,0.05,3.2
+2025-09-01,East,Advisory,11,4853.55,0.2,3.9
+2025-09-01,North,Hardware,17,5168.19,0.0,4.5
+2025-09-02,West,Software,11,951.09,0.1,3.3
+2025-09-03,South,Hardware,12,4315.94,0.1,4.0
+2025-09-04,East,Hardware,8,2940.22,0.05,3.9
+2025-09-04,West,Software,1,88.43,0.05,3.5
+2025-09-04,East,Hardware,4,1136.49,0.0,3.8
+2025-09-05,South,Hardware,18,6147.36,0.1,3.9
+2025-09-05,South,Cloud Services,11,2118.14,0.2,4.2
+2025-09-05,West,Advisory,12,5342.74,0.15,3.5
+2025-09-06,South,Hardware,3,1117.79,0.15,3.4
+2025-09-06,South,Software,11,927.16,0.05,3.9
+2025-09-07,North,Cloud Services,15,3032.75,0.05,4.8
+2025-09-07,North,Hardware,10,3138.77,0.1,4.8
+2025-09-08,North,Advisory,17,6460.98,0.1,4.9
+2025-09-08,North,Advisory,13,6433.25,0.15,5.0
+2025-09-09,North,Hardware,2,584.16,0.2,4.7
+2025-09-10,South,Cloud Services,2,373.54,0.1,3.5
+2025-09-10,South,Hardware,12,3573.66,0.1,4.2
+2025-09-10,North,Cloud Services,3,540.59,0.05,4.1
+2025-09-11,North,Hardware,3,1078.65,0.0,4.6
+2025-09-11,North,Cloud Services,7,1361.44,0.15,4.7
+2025-09-11,West,Hardware,19,5455.55,0.1,4.8
+2025-09-12,North,Software,15,1430.83,0.2,4.5
+2025-09-12,West,Cloud Services,5,1090.1,0.15,4.0
+2025-09-12,West,Software,6,460.88,0.1,4.1
+2025-09-13,East,Cloud Services,4,748.18,0.0,4.2
+2025-09-13,East,Cloud Services,11,2475.01,0.1,4.2
+2025-09-14,South,Hardware,18,5672.43,0.15,4.7
+2025-09-14,West,Cloud Services,9,1557.96,0.2,4.0
+2025-09-14,North,Hardware,8,2227.95,0.1,4.0
+2025-09-15,South,Cloud Services,16,3436.01,0.2,3.3
+2025-09-16,South,Software,10,885.4,0.2,3.8
+2025-09-16,North,Software,3,233.29,0.0,4.6
+2025-09-16,East,Cloud Services,18,3766.2,0.0,3.4
+2025-09-17,East,Cloud Services,1,188.93,0.2,4.5
+2025-09-17,North,Hardware,8,2884.5,0.15,4.4
+2025-09-18,West,Hardware,3,987.25,0.0,4.5
+2025-09-18,West,Software,4,329.99,0.1,3.8
+2025-09-18,South,Cloud Services,13,2919.93,0.05,3.2
+2025-09-19,South,Cloud Services,16,3335.88,0.0,4.1
+2025-09-19,West,Software,16,1346.9,0.05,3.3
+2025-09-19,West,Hardware,15,4353.21,0.05,3.7
+2025-09-20,West,Software,7,588.12,0.0,4.2
+2025-09-20,North,Software,13,1134.14,0.2,3.9
+2025-09-20,South,Hardware,17,5749.86,0.05,4.3
+2025-09-21,West,Advisory,18,7016.7,0.15,3.6
+2025-09-21,West,Hardware,15,4828.32,0.15,3.5
+2025-09-22,South,Advisory,12,5059.44,0.05,3.4
+2025-09-22,East,Software,11,864.85,0.0,3.8
+2025-09-22,North,Cloud Services,18,3307.07,0.0,3.3
+2025-09-23,North,Advisory,6,2337.47,0.0,3.3
+2025-09-23,East,Advisory,1,374.79,0.0,4.7
+2025-09-24,East,Cloud Services,13,2495.86,0.15,4.4
+2025-09-24,South,Hardware,1,356.68,0.0,4.5
+2025-09-25,East,Cloud Services,11,2268.37,0.0,3.7
+2025-09-25,North,Cloud Services,4,833.38,0.0,3.4
+2025-09-26,West,Cloud Services,5,848.38,0.2,4.1
+2025-09-26,West,Cloud Services,9,1753.79,0.05,4.3
+2025-09-26,West,Cloud Services,9,1529.29,0.0,3.5
+2025-09-27,West,Hardware,2,576.08,0.0,4.8
+2025-09-28,South,Advisory,1,457.55,0.2,3.3
+2025-09-28,West,Hardware,8,2635.9,0.05,4.5
+2025-09-29,West,Advisory,8,3328.55,0.0,4.8
+2025-09-29,East,Advisory,3,1323.33,0.0,3.4
+2025-09-30,West,Hardware,15,5200.73,0.2,3.9
+2025-09-30,South,Advisory,17,6335.62,0.05,3.3
+2025-10-01,South,Cloud Services,17,3737.92,0.15,3.2
+2025-10-01,North,Cloud Services,4,676.2,0.05,4.4
+2025-10-01,East,Advisory,16,7270.24,0.15,5.0
+2025-10-02,North,Software,10,908.17,0.0,3.4
+2025-10-02,East,Software,1,90.03,0.15,4.4
+2025-10-02,West,Advisory,16,6317.02,0.15,4.2
+2025-10-03,North,Cloud Services,11,2370.05,0.0,3.7
+2025-10-03,South,Hardware,4,1411.45,0.2,3.6
+2025-10-03,South,Software,13,1173.44,0.15,3.3
+2025-10-04,North,Advisory,5,2120.79,0.15,4.2
+2025-10-04,West,Cloud Services,9,1608.95,0.05,3.6
+2025-10-05,South,Hardware,10,2978.72,0.1,3.5
+2025-10-05,West,Hardware,8,2830.5,0.15,4.4
+2025-10-06,East,Hardware,6,1774.31,0.15,4.2
+2025-10-07,South,Hardware,18,6008.21,0.05,3.2
+2025-10-07,North,Advisory,11,3998.65,0.0,4.9
+2025-10-07,South,Cloud Services,15,2818.43,0.05,4.4
+2025-10-08,South,Software,18,1538.37,0.2,4.0
+2025-10-09,South,Software,8,616.02,0.1,4.4
+2025-10-09,West,Hardware,11,3785.99,0.1,3.9
+2025-10-09,South,Advisory,9,3451.14,0.1,4.1
+2025-10-10,South,Software,12,940.36,0.0,4.9
+2025-10-10,East,Cloud Services,6,1225.77,0.05,3.2
+2025-10-10,East,Advisory,2,894.8,0.1,4.1
+2025-10-11,East,Software,8,607.81,0.15,3.6
+2025-10-11,East,Hardware,7,2407.02,0.15,4.2
+2025-10-12,South,Hardware,12,3252.58,0.05,4.6
+2025-10-12,West,Advisory,10,4620.71,0.2,3.6
+2025-10-13,West,Cloud Services,16,2781.51,0.2,3.6
+2025-10-13,East,Hardware,12,4001.83,0.05,4.8
+2025-10-14,East,Advisory,2,975.0,0.0,4.6
+2025-10-14,East,Hardware,3,828.71,0.1,3.7
+2025-10-15,North,Software,18,1603.36,0.05,4.8
+2025-10-16,West,Hardware,10,3522.09,0.0,3.3
+2025-10-16,North,Software,17,1296.03,0.2,3.6
+2025-10-17,East,Advisory,19,7936.48,0.15,4.6
+2025-10-18,West,Hardware,7,2511.94,0.05,4.8
+2025-10-18,South,Hardware,4,1408.08,0.15,4.1
+2025-10-18,North,Advisory,8,3100.71,0.1,4.3
+2025-10-19,South,Advisory,4,1609.88,0.1,4.1
+2025-10-19,East,Cloud Services,8,1383.64,0.15,4.4
+2025-10-20,East,Advisory,2,956.52,0.2,3.7
+2025-10-20,North,Cloud Services,5,970.3,0.2,4.6
+2025-10-21,North,Hardware,6,1679.69,0.05,3.6
+2025-10-22,North,Software,3,288.9,0.15,4.9
+2025-10-22,East,Software,4,370.6,0.2,4.6
+2025-10-22,South,Software,5,459.46,0.1,3.7
+2025-10-23,West,Software,15,1418.66,0.2,4.2
+2025-10-24,East,Advisory,10,4614.93,0.1,3.7
+2025-10-25,North,Hardware,11,3730.94,0.0,3.9
+2025-10-25,West,Advisory,15,6952.03,0.2,4.2
+2025-10-26,East,Hardware,19,5979.45,0.0,4.0
+2025-10-27,East,Advisory,7,3031.25,0.0,3.4
+2025-10-27,East,Software,17,1279.8,0.0,3.6
+2025-10-28,South,Software,3,233.52,0.0,4.5
+2025-10-29,East,Hardware,1,312.0,0.05,3.5
+2025-10-29,West,Advisory,4,1702.29,0.1,4.6
+2025-10-29,West,Cloud Services,14,3056.35,0.05,4.0
+2025-10-30,East,Hardware,6,2018.25,0.0,4.2
+2025-10-30,North,Hardware,5,1767.48,0.2,4.9
+2025-10-30,East,Software,19,1628.73,0.1,4.8
+2025-10-31,East,Advisory,4,1842.03,0.05,4.8
+2025-11-01,North,Hardware,8,2472.47,0.1,4.7
+2025-11-01,East,Cloud Services,19,3371.4,0.15,3.5
+2025-11-01,South,Advisory,11,4446.08,0.15,4.3
+2025-11-02,North,Hardware,14,4842.41,0.1,3.8
+2025-11-03,North,Advisory,19,8979.15,0.1,3.3
+2025-11-03,East,Cloud Services,4,958.67,0.15,4.4
+2025-11-04,South,Cloud Services,19,4335.21,0.2,3.4
+2025-11-04,West,Hardware,18,6885.17,0.0,5.0
+2025-11-04,South,Software,10,814.13,0.05,3.4
+2025-11-05,North,Hardware,18,6478.38,0.0,3.6
+2025-11-05,West,Hardware,7,2205.84,0.05,4.1
+2025-11-06,South,Advisory,10,4797.66,0.05,4.3
+2025-11-06,East,Cloud Services,15,3607.77,0.1,4.0
+2025-11-06,West,Advisory,19,8944.46,0.05,3.7
+2025-11-07,East,Software,6,506.03,0.05,4.0
+2025-11-07,West,Advisory,6,2581.05,0.15,3.6
+2025-11-08,West,Hardware,1,303.79,0.0,3.5
+2025-11-08,East,Cloud Services,19,4523.87,0.1,4.6
+2025-11-09,North,Software,13,1161.9,0.0,3.9
+2025-11-09,North,Cloud Services,9,1901.29,0.0,3.6
+2025-11-10,South,Hardware,10,3709.89,0.0,4.1
+2025-11-11,South,Software,3,310.65,0.2,4.8
+2025-11-11,East,Advisory,15,7614.29,0.1,4.5
+2025-11-11,East,Software,17,1598.08,0.0,3.6
+2025-11-12,East,Advisory,17,8670.16,0.15,3.2
+2025-11-13,North,Hardware,14,4572.46,0.05,3.3
+2025-11-13,South,Hardware,3,962.31,0.0,4.4
+2025-11-13,South,Software,16,1421.45,0.05,4.6
+2025-11-14,East,Advisory,13,6632.04,0.1,4.3
+2025-11-14,East,Hardware,14,4623.79,0.05,4.0
+2025-11-14,South,Hardware,11,3919.95,0.0,4.8
+2025-11-15,North,Software,9,730.93,0.1,4.0
+2025-11-16,East,Software,6,556.56,0.15,4.2
+2025-11-17,East,Hardware,18,7056.94,0.1,4.3
+2025-11-17,West,Hardware,7,2167.77,0.15,3.6
+2025-11-17,East,Hardware,3,1042.7,0.05,3.9
+2025-11-18,North,Software,16,1539.07,0.0,3.5
+2025-11-18,South,Hardware,7,2678.91,0.15,4.0
+2025-11-19,West,Hardware,12,4003.48,0.05,4.2
+2025-11-20,East,Hardware,13,4439.98,0.2,3.8
+2025-11-21,South,Hardware,7,2344.37,0.0,3.4
+2025-11-21,South,Hardware,19,7602.86,0.0,4.7
+2025-11-22,North,Cloud Services,12,3027.13,0.1,3.9
+2025-11-22,South,Cloud Services,9,1840.88,0.2,3.9
+2025-11-23,East,Advisory,16,6947.2,0.0,4.5
+2025-11-23,South,Hardware,5,1967.51,0.05,3.7
+2025-11-24,South,Hardware,17,6123.33,0.05,4.8
+2025-11-24,South,Software,15,1303.76,0.15,3.4
+2025-11-25,East,Advisory,14,6243.3,0.1,3.8
+2025-11-25,West,Software,8,908.37,0.0,3.9
+2025-11-26,East,Hardware,3,1186.51,0.05,3.5
+2025-11-26,South,Software,19,1918.88,0.0,4.3
+2025-11-27,West,Hardware,17,6373.94,0.2,3.8
+2025-11-27,West,Advisory,17,7759.65,0.2,4.6
+2025-11-27,East,Cloud Services,17,4508.94,0.0,3.2
+2025-11-28,North,Cloud Services,3,717.25,0.2,3.6
+2025-11-29,West,Advisory,9,4600.76,0.0,4.0
+2025-11-29,West,Software,9,906.34,0.1,3.7
+2025-11-30,North,Software,19,2117.89,0.0,4.8
+2025-11-30,East,Cloud Services,14,3210.02,0.05,4.8
+2025-11-30,South,Advisory,8,4527.98,0.15,3.5
+2025-12-01,West,Advisory,17,7578.86,0.05,4.1
+2025-12-01,East,Software,10,967.4,0.1,3.3
+2025-12-01,West,Software,8,711.98,0.15,4.0
+2025-12-02,East,Software,11,1276.0,0.1,4.7
+2025-12-02,North,Advisory,9,3938.16,0.15,3.4
+2025-12-02,East,Advisory,16,7151.98,0.0,4.3
+2025-12-03,North,Advisory,7,3808.45,0.15,3.5
+2025-12-04,West,Cloud Services,12,3119.54,0.15,3.6
+2025-12-05,South,Hardware,17,6173.96,0.1,4.0
+2025-12-05,West,Software,10,1068.89,0.05,3.8
+2025-12-06,East,Hardware,16,5736.22,0.1,3.5
+2025-12-07,South,Cloud Services,12,3154.2,0.1,3.5
+2025-12-08,South,Software,18,1842.93,0.05,4.0
+2025-12-09,North,Advisory,6,3232.63,0.1,4.9
+2025-12-09,North,Software,1,107.61,0.15,4.0
+2025-12-10,East,Hardware,4,1765.3,0.05,4.4
+2025-12-10,East,Cloud Services,4,989.61,0.15,4.6
+2025-12-11,West,Advisory,1,533.42,0.2,4.8
+2025-12-12,North,Cloud Services,14,3719.49,0.0,4.8
+2025-12-12,West,Cloud Services,8,2167.55,0.2,4.7
+2025-12-12,West,Software,11,1304.68,0.2,3.3
+2025-12-13,West,Advisory,11,6776.2,0.1,4.7
+2025-12-13,East,Software,13,1402.77,0.2,3.8
+2025-12-13,West,Cloud Services,11,2681.08,0.1,3.9
+2025-12-14,West,Cloud Services,16,3861.72,0.05,4.5
+2025-12-14,West,Advisory,15,8249.79,0.05,4.2
+2025-12-15,North,Hardware,10,3997.21,0.15,5.0
+2025-12-16,East,Cloud Services,2,549.27,0.1,4.2
+2025-12-16,East,Advisory,11,6879.0,0.15,4.1
+2025-12-16,North,Cloud Services,19,4828.54,0.05,4.4
+2025-12-17,West,Software,6,687.13,0.1,4.9
+2025-12-18,East,Software,18,1780.34,0.1,3.5
+2025-12-19,North,Cloud Services,9,2059.72,0.1,4.5
+2025-12-20,North,Advisory,15,7738.14,0.05,4.4
+2025-12-20,South,Hardware,14,5160.69,0.05,4.6
+2025-12-20,East,Cloud Services,11,2865.61,0.15,4.9
+2025-12-21,West,Advisory,13,6630.45,0.2,4.7
+2025-12-21,West,Software,11,1287.04,0.1,3.3
+2025-12-21,North,Advisory,8,4185.6,0.0,4.3
+2025-12-22,South,Advisory,11,5749.18,0.2,5.0
+2025-12-22,West,Advisory,9,5918.26,0.15,3.6
+2025-12-22,East,Hardware,8,3887.34,0.2,3.3
+2025-12-23,East,Hardware,12,5669.96,0.05,4.9
+2025-12-23,South,Cloud Services,11,3209.56,0.15,3.5
+2025-12-23,West,Cloud Services,18,4496.91,0.05,3.3
+2025-12-24,West,Hardware,3,1490.78,0.0,4.9
+2025-12-24,West,Advisory,8,4220.57,0.2,3.6
+2025-12-24,South,Advisory,7,3885.3,0.15,4.4
+2025-12-25,South,Software,4,415.88,0.05,4.7
+2025-12-26,South,Advisory,5,2903.78,0.05,4.1
+2025-12-26,West,Software,3,298.44,0.15,4.1
+2025-12-26,North,Hardware,10,4807.94,0.05,3.7
+2025-12-27,South,Hardware,13,5466.39,0.05,4.4
+2025-12-27,North,Advisory,15,8018.96,0.2,5.0
+2025-12-28,West,Advisory,18,10539.82,0.0,4.1
+2025-12-29,West,Cloud Services,7,1716.89,0.05,3.4
+2025-12-29,West,Cloud Services,8,2014.97,0.0,4.7
+2025-12-30,North,Cloud Services,14,4069.1,0.15,4.9
+2025-12-30,North,Advisory,13,8136.07,0.15,3.5
+2025-12-31,East,Advisory,13,7581.34,0.2,4.2
+2025-12-31,West,Cloud Services,6,1616.77,0.1,4.9
+2025-12-31,East,Advisory,12,7322.66,0.2,4.6

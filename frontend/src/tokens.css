@@ -1,0 +1,325 @@
+:root {
+  /* Twelve Named Whites */
+  --white-100: #FFFFFF; /* Paper - cards in focus, modals, highest elevation */
+  --white-90:  #FDFDFB; /* Snow - primary page background */
+  --white-80:  #FAF9F5; /* Ivory - panels, sidebars */
+  --white-70:  #F5F3EC; /* Pearl - inset wells, input fields */
+  --white-60:  #EFECE3; /* Linen - hover states, table zebra */
+  --white-50:  #E8E4D9; /* Bone - borders, dividers */
+  --white-40:  #DDD8CA; /* Chalk - strong borders, ornament strokes */
+  --white-30:  #CEC8B8; /* Plaster - disabled text, grid lines */
+  --white-20:  #B9B3A1; /* Fog - secondary icons, axis ticks */
+  --white-10:  #A39D8A; /* Ash-white - tertiary text, chart secondary marks */
+
+  /* The Ink Tones */
+  --ink:       #1C1B18; /* Ink - primary text & crisp data marks */
+  --ink-soft:  #4A4840; /* Graphite - secondary text */
+  --ink-muted: #7A7568; /* Muted annotation text */
+
+  /* Shadows (Warm, soft umber - never pure black) */
+  --shadow-1: 0 1px 2px rgba(60, 50, 30, .06), 0 1px 1px rgba(60, 50, 30, .04);
+  --shadow-2: 0 4px 10px rgba(60, 50, 30, .07), 0 2px 4px rgba(60, 50, 30, .05);
+  --shadow-3: 0 12px 28px rgba(60, 50, 30, .09), 0 4px 8px rgba(60, 50, 30, .05);
+  --shadow-4: 0 24px 56px rgba(60, 50, 30, .12), 0 8px 16px rgba(60, 50, 30, .06);
+
+  /* Emboss & Deboss */
+  --emboss: inset 0 1px 0 rgba(255,255,255,.95), inset 0 -1px 0 rgba(120,105,70,.12);
+  --deboss: inset 0 2px 4px rgba(90, 75, 40, .10), inset 0 -1px 0 rgba(255,255,255,.9);
+
+  /* Typography */
+  --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+  --font-body:    "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, monospace;
+  --font-accent:  "Cormorant Garamond", Georgia, serif;
+
+  /* Spacing */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 72px;
+
+  /* Radius */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-xl: 22px;
+  --r-full: 9999px;
+
+  /* Motion */
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --t-fast: 180ms;
+  --t-base: 280ms;
+  --t-slow: 420ms;
+}
+
+/* Base Document Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background-color: var(--white-90);
+  background-image: 
+    radial-gradient(1200px 600px at 10% -10%, #FFFFFF 0%, transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, #F5F3EC 0%, transparent 55%);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+/* Dot Grid for canvases and workspaces */
+.dot-grid {
+  background-image: radial-gradient(var(--white-40) 1.2px, transparent 1.2px);
+  background-size: 16px 16px;
+}
+
+/* Hatch Pattern for Outlier and Confidence Bands */
+.hatch-pattern {
+  background-color: var(--white-70);
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--white-30),
+    var(--white-30) 2px,
+    transparent 2px,
+    transparent 7px
+  );
+}
+
+.cross-hatch {
+  background-color: var(--white-70);
+  background-image: 
+    repeating-linear-gradient(45deg, var(--white-40), var(--white-40) 1px, transparent 1px, transparent 6px),
+    repeating-linear-gradient(-45deg, var(--white-40), var(--white-40) 1px, transparent 1px, transparent 6px);
+}
+
+/* Ornamental framing brackets */
+.bracket-frame {
+  position: relative;
+}
+.bracket-frame::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 14px;
+  height: 14px;
+  border-top: 2px solid var(--white-40);
+  border-left: 2px solid var(--white-40);
+  pointer-events: none;
+}
+.bracket-frame::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  width: 14px;
+  height: 14px;
+  border-bottom: 2px solid var(--white-40);
+  border-right: 2px solid var(--white-40);
+  pointer-events: none;
+}
+
+/* Stamp Seal Keyframe Animation */
+@keyframes stampPress {
+  0% { transform: scale(1.3) rotate(-8deg); opacity: 0; }
+  60% { transform: scale(0.95) rotate(-8deg); opacity: 1; }
+  100% { transform: scale(1.0) rotate(-8deg); opacity: 1; }
+}
+
+.stamp-seal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border: 1.5px dashed var(--ink);
+  outline: 1px solid var(--white-40);
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--white-100);
+  box-shadow: var(--shadow-1);
+  transform: rotate(-3deg);
+  animation: stampPress 320ms var(--ease) forwards;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--white-80);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--white-40);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--white-30);
+}
+
+/* Print Stylesheet for High-Fidelity PDF Export */
+@media print {
+  @page {
+    margin: 15mm 15mm 15mm 15mm;
+    size: auto;
+  }
+
+  html,
+  body {
+    background: #FFFFFF !important;
+    color: #1C1B18 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Completely remove non-printable studio UI */
+  .no-print,
+  .no-print *,
+  header,
+  nav,
+  aside,
+  .stamp-seal,
+  button,
+  input,
+  select,
+  textarea {
+    display: none !important;
+  }
+
+  /* Reset app root and wrapper layout constraints */
+  #root,
+  .app-container {
+    display: block !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+  }
+
+  /* Neutralize the modal backdrop overlay */
+  .report-modal-backdrop {
+    position: static !important;
+    inset: auto !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    z-index: auto !important;
+  }
+
+  .report-modal-dialog {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    overflow: visible !important;
+  }
+
+  .report-modal-body {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .report-modal-preview {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+    background: transparent !important;
+  }
+
+  /* High-fidelity printable document styling */
+  #printable-report,
+  .printable-report {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #FFFFFF !important;
+    color: #1C1B18 !important;
+    overflow: visible !important;
+  }
+
+  .report-section {
+    page-break-inside: auto;
+    break-inside: auto;
+    margin-bottom: 24px !important;
+  }
+
+  .report-header-block {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .report-footer-block {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid !important;
+    break-after: avoid !important;
+  }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: auto !important;
+    break-inside: auto !important;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  thead {
+    display: table-header-group !important;
+  }
+
+  tfoot {
+    display: table-footer-group !important;
+  }
+}
+
